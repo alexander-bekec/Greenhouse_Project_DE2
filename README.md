@@ -2,10 +2,10 @@
 
 ### Team members
 
-* Michal Baránek (219836)
-* Tadeáš Bařina (223380)
-* Alexander Bekeč (221096)
-* Ladislav Drápal (223285)
+* Michal Baránek (219836) - návrh projektu a main funkcia, video
+* Tadeáš Bařina (223380) - návrh projektu a main funkcia, schéma zapojenia
+* Alexander Bekeč (221096) - návrh projektu a main funkcia, kód vlastných knižníc
+* Ladislav Drápal (223285) - návrh projektu a main funkcia, state diagramy, dokumentácia
 
 Link to this file in your GitHub repository:
 
@@ -59,6 +59,8 @@ Knihovny byly použity z laboratorních cvičení z předmětu Digitální elekt
 * [timer.h](https://github.com/alexander-bekec/Greenhouse_Project_DE2/blob/main/Project/greenhouse_controller_project/greenhouse_controller_project/timer.h)
 * [twi.h](https://github.com/alexander-bekec/Greenhouse_Project_DE2/blob/main/Project/greenhouse_controller_project/greenhouse_controller_project/twi.h)
 
+Okrem knižníc použitých vrámci PC cvičení predmetu DE2 boli pre projekt vytvorené funkcie pre požadované zobrazenia na displeji `lcd_menu.h`, funkcia pre prevod ADC vstupu z tlačidiel na ľahšie spracovateľné hodnoty vrámci main funkcie `button.h` a funkcia pre rýchle požadované nastavenie ADC prevodníka `adc_control.h`.
+
 <a name="main"></a>
 
 ## Main application
@@ -90,7 +92,7 @@ Ostatní stavové diagramy znázorňují stavy každého senzoru zvlášť. Tla�
 
 ## Video
 
-[https://www.youtube.com/watch?v=UxhtJv5UaRo](https://www.youtube.com/watch?v=UxhtJv5UaRo)
+[![Greenhouse project](https://img.youtube.com/vi/UxhtJv5UaRo/0.jpg)](https://www.youtube.com/watch?v=UxhtJv5UaRo)
 
 <a name="references"></a>
 
