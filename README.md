@@ -40,12 +40,12 @@ Cílem projektu je vytvořit ovládání a monitorování intenzity osvětlení,
 * 4x rezistor 1k
 
 ### Schéma zapojení
-![schema](Image/schema.png)
+![schema](Images/schema.png)
 
 Na obrázku je schéma kompletního zapojení. Ze schématu je vidět, že snímače jsou zapojeny k výstupním pinům PD0-PD3 desky ATMEGA328P. Snímač vlhkosti půdy je připojen přes červenou LED diodu k napájení a signál je posílám přes PIN A0. Tlačítka jsou připojeny k pinu A2. LCD displej má připojení k pinům PB1, PB0 a PD4-PD7. Fotorezistor DHT12 je připojen k pinům SDA a SCL.
 
 ### Reálné zapojení
-![zapojeni](Image/zapojeni.png)
+![zapojeni](Images/zapojeni.png)
 
 <a name="libs"></a>
 
@@ -66,21 +66,21 @@ Knihovny byly použity z laboratorních cvičení z předmětu Digitální elekt
 ### Stavové diagramy
 
 #### Stavový diagram všech senzorů
-![all](Image/Statediagram_komplet.png)
+![all](Images/Statediagram_komplet.png)
 
 U celkového stavového diagramu je znázorněno přepínání mezi jednotlivými senzory. Přepínání stavů je do uzavřené smyčky, kdy stisknutím pravého tlačítka se pohybujeme do prava a stiskem levého tlačítka vždy o krok zpět (do leva).
 
 #### Stavový diagram pro vlhkost
-![Humidity](Image/Humidity2.png)
+![Humidity](Images/Humidity2.png)
 
 #### Stavový diagram pro teplotu
-![Temperature](Image/Temperature2.png)
+![Temperature](Images/Temperature2.png)
 
 #### Stavový diagram pro senzor vlhkosti půdy
-![Soil](Image/Soil_moist2.png)
+![Soil](Images/Soil_moist2.png)
 
 #### Stavový diagram pro senzor úrovně světla
-![Light](Image/Light_level.png)
+![Light](Images/Light_level.png)
 
 Ostatní stavové diagramy znázorňují stavy každého senzoru zvlášť. Tlačítka do leva a do prava znamenají jak už bylo řečeno přepnutí na další senzor. Horním a dolním tlačítkem se nastavují požadované hodnoty. Horním tlačítkem (Up) zvětšujeme a dolním tlačítkem (Down) snižujeme požadovanou hodnotu. Prostředním tlačítkem (Select) se vracíme do hlavního menu, označené IDLE.
 
