@@ -13,12 +13,12 @@ Link to this file in your GitHub repository:
 
 ### Table of contents
 
-* [Project objectives](#objectives)
-* [Hardware description](#hardware)
-* [Libraries description](#libs)
-* [Main application](#main)
+* [Ciele projektu](#objectives)
+* [Popis hardvéru](#hardware)
+* [Popis knižníc](#libs)
+* [Main funkcia](#main)
 * [Video](#video)
-* [References](#references)
+* [Zdroje](#references)
 
 <a name="objectives"></a>
 
@@ -90,7 +90,7 @@ Ostatní stavové diagramy znázorňují stavy každého senzoru zvlášť. Tla�
 
 #### `main.c`
 [Link - main.c](https://github.com/alexander-bekec/Greenhouse_Project_DE2/blob/main/Project/greenhouse_controller_project/greenhouse_controller_project/main.c)
-
+Samotná main funkcia sa skláda z dvoch častí, a to z funkcií získavania premenných zo snímačov (DHT12 cez I2C zbernicu a Moisture sensor a fotorezistor cez ADC prevodník) a spínania externých regulačných prvkov prostredia, a z FSM pre riadenie displeja a nastavovanie správnych hodnôt.
 
 #### `button.c`
 [Link - button.c](https://github.com/alexander-bekec/Greenhouse_Project_DE2/blob/main/Project/greenhouse_controller_project/greenhouse_controller_project/button.c)
